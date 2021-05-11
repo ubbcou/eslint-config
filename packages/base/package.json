@@ -15,6 +15,9 @@
   "keywords": [],
   "author": "ubbcou <ubbcou@outlook.com> (http://github.com/ubbcou)",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^8.3.0",
