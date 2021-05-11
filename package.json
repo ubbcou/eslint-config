@@ -1,0 +1,16 @@
+{
+  "name": "@ubbcou/eslint-config-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "lint": "npx eslint --ext .js,.json,.vue --fix .",
+    "release": "lerna publish --conventional-commits"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
