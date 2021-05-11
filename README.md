@@ -34,3 +34,13 @@ module.exports = {
   ],
 }
 ```
+
+## attention
+
+保存代码时自动修复eslint错误
+```json
+  // setting
+  "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+  },
+```
