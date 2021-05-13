@@ -13,9 +13,18 @@ module.exports = {
   },
   plugins: ['prettier'],
   rules: {
+    // import
+    'import/no-unresolved': 'off',
+    'import/prefer-default-export': 'off',
+
+    // common
     semi: [2, 'never'],
     quotes: ['error', 'single'],
-    'comma-dangle': ['error', 'always-multiline']
+    camelcase: 'off',
+    'eol-last': ["error", "always"],
+    'comma-dangle': ['error', 'always-multiline'],
+    'no-underscore-dangle': 'off',
+    
   },
   globals: {
     wx: 'readonly',
