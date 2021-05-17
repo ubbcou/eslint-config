@@ -1,0 +1,35 @@
+{
+  "name": "@ubbcou/eslint-config-vue",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ubbcou/eslint-config.git",
+    "directory": "packages/base"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "keywords": [],
+  "author": "ubbcou <ubbcou@outlook.com> (http://github.com/ubbcou)",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@vue/eslint-config-standard": "^6.0.0",
+    "eslint-config-vue": "^2.0.2",
+    "eslint-plugin-vue": "^7.9.0",
+    "vue-eslint-parser": "^7.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.26.0"
+  }
+}

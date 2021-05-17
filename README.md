@@ -21,7 +21,7 @@
 ### install
 
 ```bash
-yarn add -D eslint @ubbcou/eslint-config-base
+yarn add -D eslint @ubbcou/eslint-config-base @ubbcou/eslint-config-vue
 ```
 
 ### config
@@ -30,14 +30,16 @@ yarn add -D eslint @ubbcou/eslint-config-base
 // .eslintrc.js
 module.exports = {
   extends: [
-    '@ubbcou/base',
+    '@ubbcou/vue',
+    '@ubbcou/base', // base放最后
   ],
 }
 ```
 
 ## attention
 
-保存代码时自动修复eslint错误
+`vscode` 保存代码时自动修复eslint错误
+
 ```json
   // setting
   "editor.codeActionsOnSave": {

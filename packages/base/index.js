@@ -9,13 +9,13 @@ module.exports = {
     browser: true,
     node: true,
     es6: true,
-    node: true,
   },
   plugins: ['prettier'],
   rules: {
     // import
     'import/no-unresolved': 'off',
     'import/prefer-default-export': 'off',
+    'import/extensions': 'off',
 
     // common
     semi: [2, 'never'],
@@ -24,11 +24,7 @@ module.exports = {
     'eol-last': ["error", "always"],
     'comma-dangle': ['error', 'always-multiline'],
     'no-underscore-dangle': 'off',
-    
   },
   globals: {
-    wx: 'readonly',
-    Page: 'readonly',
-    App: 'readonly'
   },
 };
