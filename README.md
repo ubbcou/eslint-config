@@ -1,6 +1,15 @@
 # eslint config
 
-## main content
+base in `https://github.com/antfu/eslint-config`
+
+## 支持
+
+- base javascript
+- vue
+- typescript
+
+
+## 主要内容
 
 - airbnb
 - prettier
@@ -15,34 +24,3 @@
     // comma
     'comma-dangle': ['error', 'always-multiline']
   ```
-
-## usage
-
-### install
-
-```bash
-yarn add -D eslint @ubbcou/eslint-config-base @ubbcou/eslint-config-vue
-```
-
-### config
-
-```js
-// .eslintrc.js
-module.exports = {
-  extends: [
-    '@ubbcou/vue',
-    '@ubbcou/base', // base放最后
-  ],
-}
-```
-
-## attention
-
-`vscode` 保存代码时自动修复eslint错误
-
-```json
-  // setting
-  "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
-  },
-```
