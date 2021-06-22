@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/ubbcou/eslint-config/compare/v0.2.0...v0.3.0) (2021-06-22)
+
+
+### Features
+
+* **base:** 增加规则 ([ad78df3](https://github.com/ubbcou/eslint-config/commit/ad78df3df01e48e824d3df5b79fc1522bd60d7a1))
+
+
+
+
+
 # [0.2.0](https://github.com/ubbcou/eslint-config/compare/v0.1.0...v0.2.0) (2021-05-17)
 
 
