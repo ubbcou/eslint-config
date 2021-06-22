@@ -1,17 +1,26 @@
 module.exports = {
   parser: 'vue-eslint-parser',
-  // parserOptions: {
-  //   parser: 'babel-eslint',
-  //   ecmaVersion: 2020,
-  //   sourceType: 'module'
-  // },
+  parserOptions: {
+    parser: 'babel-eslint',
+    ecmaVersion: 2020,
+    sourceType: 'module'
+  },
   extends: [
+    '@ubbcou/base',
     'plugin:vue/recommended',
   ],
   plugins: ['vue'],
   rules: {
-    // @TODO 这里的规则不知道为啥无效
-    'vue/max-attributes-per-line': 1,
+    'vue/max-attributes-per-line': [
+      2,
+      {
+        singleline: 4,
+        multiline: {
+          max: 1,
+          allowFirstLine: false,
+        },
+      },
+    ],
     'vue/html-self-closing': [
       2,
       {
