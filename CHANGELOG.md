@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/ubbcou/eslint-config/compare/v0.3.0...v0.4.0) (2021-08-01)
+
+
+### Features
+
+* typescript ([d48c31a](https://github.com/ubbcou/eslint-config/commit/d48c31acd4c429b747ab5100a53eab789b1c5f8d))
+* vue3-ts ([6cec70c](https://github.com/ubbcou/eslint-config/commit/6cec70c1e46fb2dbc71ca64f6fef91aa0d619ee9))
+
+
+
+
+
 # [0.3.0](https://github.com/ubbcou/eslint-config/compare/v0.2.0...v0.3.0) (2021-06-22)
 
 

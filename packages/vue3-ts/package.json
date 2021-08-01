@@ -1,6 +1,6 @@
 {
   "name": "@ubbcou/eslint-config-vue3-ts",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "",
   "main": "index.js",
   "files": [
@@ -24,8 +24,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@ubbcou/eslint-config-typescript": "^0.4.0",
     "@ubbcou/eslint-config-base": "^0.4.0",
+    "@ubbcou/eslint-config-typescript": "^0.4.0",
     "@vue/eslint-config-standard": "^6.0.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-config-vue": "^2.0.2",
