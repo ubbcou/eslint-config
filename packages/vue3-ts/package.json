@@ -1,6 +1,6 @@
 {
   "name": "@ubbcou/eslint-config-vue3-ts",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "",
   "main": "index.js",
   "files": [
@@ -24,6 +24,7 @@
     "access": "public"
   },
   "dependencies": {
+    "@typescript-eslint/parser": "^4.28.5",
     "@ubbcou/eslint-config-base": "^0.5.0",
     "@ubbcou/eslint-config-typescript": "^0.5.0",
     "@vue/eslint-config-standard": "^6.0.0",
@@ -32,8 +33,7 @@
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-vue": "^7.9.0",
     "prettier": "^2.3.1",
-    "vue-eslint-parser": "^7.6.0",
-    "@typescript-eslint/parser": "^4.28.5"
+    "vue-eslint-parser": "^7.6.0"
   },
   "devDependencies": {
     "eslint": "^7.26.0"
