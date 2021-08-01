@@ -25,7 +25,8 @@ module.exports = {
     'eol-last': ["error", "always"],
     'comma-dangle': ['error', 'always-multiline'],
     'no-underscore-dangle': 'off',
-    'no-param-reassign': 'off'
+    'no-param-reassign': 'off',
+    "no-use-before-define": ["error", { "functions": false, "classes": true }]
   },
   globals: {
   },
