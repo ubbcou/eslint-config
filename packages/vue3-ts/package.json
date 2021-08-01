@@ -1,6 +1,6 @@
 {
   "name": "@ubbcou/eslint-config-vue3-ts",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "vue3 and typescript eslint",
   "main": "index.js",
   "files": [
