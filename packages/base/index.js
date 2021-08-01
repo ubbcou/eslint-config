@@ -21,7 +21,7 @@ module.exports = {
     semi: [2, 'never'],
     quotes: ['error', 'single'],
     camelcase: 'off',
-    'eslint no-trailing-spaces': 'error',
+    'no-trailing-spaces': 'error',
     'eol-last': ["error", "always"],
     'comma-dangle': ['error', 'always-multiline'],
     'no-underscore-dangle': 'off',

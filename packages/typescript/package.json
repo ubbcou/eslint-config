@@ -1,5 +1,5 @@
 {
-  "name": "@ubbcou/eslint-config-vue",
+  "name": "@ubbcou/eslint-config-typescript",
   "version": "0.3.0",
   "description": "",
   "main": "index.js",
@@ -12,10 +12,11 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:ubbcou/eslint-config.git",
-    "directory": "packages/base"
+    "directory": "packages/typescript"
   },
   "peerDependencies": {
-    "eslint": ">=7.4.0"
+    "eslint": ">=7.4.0",
+    "typescript": ">=3.9"
   },
   "keywords": [],
   "author": "ubbcou <ubbcou@outlook.com> (http://github.com/ubbcou)",
@@ -24,15 +25,11 @@
     "access": "public"
   },
   "dependencies": {
-    "@ubbcou/eslint-config-base": "^0.4.0",
-    "@vue/eslint-config-standard": "^6.0.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-config-vue": "^2.0.2",
-    "eslint-plugin-vue": "^7.9.0",
-    "prettier": "^2.3.1",
-    "vue-eslint-parser": "^7.6.0"
+    "@typescript-eslint/eslint-plugin": "^4.28.2",
+    "@typescript-eslint/parser": "^4.28.1",
+    "@ubbcou/eslint-config-base": "^0.4.0"
   },
   "devDependencies": {
-    "eslint": "^7.26.0"
+    "eslint": "^7.30.0"
   }
 }
