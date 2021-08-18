@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/ubbcou/eslint-config/compare/v0.4.2...v0.5.0) (2021-08-18)
+
+
+### Bug Fixes
+
+* vue插件配置 ([96e8a34](https://github.com/ubbcou/eslint-config/commit/96e8a3415eaf850c8db698723144428e3aa3e9c0))
+
+
+### Features
+
+* version ([ed3c9bf](https://github.com/ubbcou/eslint-config/commit/ed3c9bf4db81ac1c39c6d0c6534c4761209583a3))
+
+
+
+
+
 ## [0.4.2](https://github.com/ubbcou/eslint-config/compare/v0.4.1...v0.4.2) (2021-08-01)
 
 **Note:** Version bump only for package @ubbcou/eslint-config-monorepo
